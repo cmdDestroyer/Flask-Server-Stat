@@ -11,7 +11,7 @@ stats = {
 
 @app.route('/')
 def hello():
-    return f"Fuck you. Stats={stats}"
+    return f"Hello! There is your stats : {stats}"
 
 
 @app.route("/auth", methods=["POST"])
